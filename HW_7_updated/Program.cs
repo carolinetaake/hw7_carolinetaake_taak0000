@@ -30,7 +30,6 @@ if (File.Exists(inputFile))
             foreach (string row in rows)
             {
                 string[] data = row.Split(",");
-
                 string group = data[0];
                 int gold = int.Parse(data[1]);
                 int silver = int.Parse(data[2]);
